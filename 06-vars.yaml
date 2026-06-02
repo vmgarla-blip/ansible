@@ -1,6 +1,6 @@
 - name: demo on vars_files
   hosts: local
-  connection: local
+  connection: localhost
   vars_files:
   - course.yaml
   tasks:
